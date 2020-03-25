@@ -1,6 +1,6 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-call_s = ["bo", "bam", "boom", "bazam", "powzer"]
+short_words = ["puff", "go", "two"]
 
 def roll_call_dwarves(array)
   i = 0 
@@ -37,7 +37,7 @@ def long_planeteer_calls(array)
   end 
 end
 
-long_planeteer_calls(call_screams)
+long_planeteer_calls(short_words)
 
 
 cheese_types = ["cheddar", "gouda", "camembert"]
